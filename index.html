@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10 - API Calls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>API Interaction Lab</h1>
+        <p class="subtitle">Explore GET, POST, and PUT requests with JavaScript</p>
+
+        <!-- Task 1 & 2: GET Requests -->
+        <section class="section">
+            <h2>Task 1 & 2: Fetch Data</h2>
+            <div class="button-group">
+                <button id="fetchButton" class="btn btn-primary">Fetch Data with fetch()</button>
+                <button id="xhrButton" class="btn btn-secondary">Fetch Data with XHR</button>
+            </div>
+            <div id="getResults" class="results"></div>
+        </section>
+
+        <!-- Task 3: POST Request -->
+        <section class="section">
+            <h2>Task 3: Create New Post (POST)</h2>
+            <form id="postForm">
+                <div class="form-group">
+                    <label for="postTitle">Post Title:</label>
+                    <input type="text" id="postTitle" name="title" required placeholder="Enter post title">
+                </div>
+                <div class="form-group">
+                    <label for="postBody">Post Body:</label>
+                    <textarea id="postBody" name="body" required placeholder="Enter post content" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Create Post</button>
+            </form>
+            <div id="postResults" class="results"></div>
+        </section>
+
+        <!-- Task 4: PUT Request -->
+        <section class="section">
+            <h2>Task 4: Update Post (PUT)</h2>
+            <form id="putForm">
+                <div class="form-group">
+                    <label for="putId">Post ID:</label>
+                    <input type="number" id="putId" name="id" required placeholder="Enter post ID (1-100)" min="1" max="100">
+                </div>
+                <div class="form-group">
+                    <label for="putTitle">New Title:</label>
+                    <input type="text" id="putTitle" name="title" required placeholder="Enter new title">
+                </div>
+                <div class="form-group">
+                    <label for="putBody">New Body:</label>
+                    <textarea id="putBody" name="body" required placeholder="Enter new content" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Update Post</button>
+            </form>
+            <div id="putResults" class="results"></div>
+        </section>
+
+        <!-- Bonus: DELETE Request -->
+        <section class="section">
+            <h2>Bonus: Delete Post</h2>
+            <form id="deleteForm">
+                <div class="form-group">
+                    <label for="deleteId">Post ID to Delete:</label>
+                    <input type="number" id="deleteId" name="id" required placeholder="Enter post ID (1-100)" min="1" max="100">
+                </div>
+                <button type="submit" class="btn btn-danger">Delete Post</button>
+            </form>
+            <div id="deleteResults" class="results"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
