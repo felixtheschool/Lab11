@@ -160,7 +160,7 @@ Abdul Moeed Hadi Syed
 December 12, 2025
 
 ## 📄 License
-This project is created for educational purposes as part of Lab 10 assignment.
+This project is created for educational purposes as part of Lab 11 assignment.
 
 ## 🙏 Acknowledgments
 - JSONPlaceholder for providing the free API
