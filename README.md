@@ -151,8 +151,8 @@ The app handles various error scenarios:
 - Timeout issues
 
 ## 👨‍💻 Author
-**Your Name**
-- Student ID: [Your Student ID]
+Abdul Moeed Hadi Syed
+- Student ID: N01774009
 - Course: CPAN 113
 - Institution: Humber College
 
