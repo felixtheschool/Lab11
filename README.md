@@ -1,4 +1,4 @@
-# Lab 10 - API Calls with JavaScript
+# Lab 11 - API Calls with JavaScript
 
 ## 📋 Overview
 This lab demonstrates API interaction using JavaScript's `fetch()` and `XMLHttpRequest` (XHR) methods. The project implements GET, POST, PUT, and DELETE requests to interact with the JSONPlaceholder API.
